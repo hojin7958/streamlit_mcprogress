@@ -3,6 +3,11 @@ import pandas as pd
 import pandas as pd
 import dataframe_image as dfi
 import matplotlib as mpl
+import matplotlib.font_manager as fm
+
+
+mpl.font_manager.fontManager.addfont('malgun.ttf')
+
 mpl.rcParams['font.family'] = 'Malgun Gothic'
 mpl.rcParams['font.size'] = 25
 import streamlit_ext as ste

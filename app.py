@@ -28,7 +28,7 @@ if uploaded_file is not None:
 
     print("1", st.session_state.downloaded)
 
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_excel(uploaded_file)
     columns = df.columns.tolist()
 
     with st.form("m1"):

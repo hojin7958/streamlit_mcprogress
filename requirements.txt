@@ -4,3 +4,4 @@ pandas==1.5.2
 streamlit==1.15.1
 streamlit_ext==0.1.5
 lxml==4.9.1
+openpyxl ==3.0.10
